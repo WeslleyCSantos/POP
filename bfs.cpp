@@ -30,7 +30,7 @@ void bfs(int vertex);
 }
 
 void bfs(int vertex){
-  
+
   queue<int> q;
   q.push(vertex);
   visitado.resize(n,false);
